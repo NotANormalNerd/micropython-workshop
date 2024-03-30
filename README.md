@@ -37,3 +37,11 @@ ls /dev/tty*
 
 In Windows you can use the Device Manager to see the COM port that the microcontroller is connected to.
 Go into the Makefile and change the `PORT` variable to the port that the microcontroller is connected to.
+
+Open REPL on the Micropython device:
+
+```bash
+screen /dev/ttyUSB0 115200
+``` 
+
+to exit the screen session press `Ctrl + A` followed by `Ctrl + \`
